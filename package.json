@@ -1,0 +1,22 @@
+{
+  "name": "dat-registry",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha ./tests --recursive"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "dat-node": "^3.5.15",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3"
+  }
+}
